@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 20,
+        "description": "A datapack to build and simulate the environment from maze runner in minecraft. Uses mazeGenerator"
+    }
+}
