@@ -1,0 +1,1 @@
+execute align xz run summon block_display ~ ~ ~ {Tags:["mr_center"]}
