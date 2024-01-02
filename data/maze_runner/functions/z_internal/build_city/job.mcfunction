@@ -15,7 +15,7 @@ execute if score mr_random mr_var matches 11 run place template minecraft:mr_fis
 execute if score mr_random mr_var matches 12 run place template minecraft:mr_furnace_room
 execute if score mr_random mr_var matches 13 run place template minecraft:mr_library_room
 execute if score mr_random mr_var matches 14 run fill ~ ~1 ~ ~9 -64 ~9 minecraft:bedrock outline
-execute if score mr_random mr_var matches 14 run place template minecraft:mr_mason_room ~ ~1 ~
+execute if score mr_random mr_var matches 14 run place template minecraft:mr_mason_room ~ ~ ~
 execute if score mr_random mr_var matches 15 run place template minecraft:mr_melon_farm
 execute if score mr_random mr_var matches 16 run place template minecraft:mr_oak_farm
 execute if score mr_random mr_var matches 17 run place template minecraft:mr_potato_farm
