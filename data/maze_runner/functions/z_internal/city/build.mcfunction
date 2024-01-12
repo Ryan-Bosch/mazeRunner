@@ -24,16 +24,16 @@ place template minecraft:mr_map_room ~-10 ~ ~
 # Build city grid
 scoreboard players reset mr_grid_x mr_var
 scoreboard players reset mr_grid_y mr_var
-#execute positioned ~40 ~ ~40 run function maze_runner:z_internal/build_city/grid
+execute positioned ~40 ~ ~40 run function maze_runner:z_internal/city/grid
 
 # Doors
 place template mr_door_ns_bottom ~-7 ~2 ~50
 place template mr_door_ns_bottom ~-7 ~2 ~-51
-place template minecraft:mr_door_we_bottom ~50 ~2 ~-7
-place template minecraft:mr_door_we_bottom ~-51 ~2 ~-7
+place template mr_door_we_bottom ~50 ~2 ~-7
+place template mr_door_we_bottom ~-51 ~2 ~-7
 
 scoreboard players set mr_var mr_var 23
-execute positioned ~ ~4 ~ run function maze_runner:z_internal/build_city/gate
+execute positioned ~ ~4 ~ run function maze_runner:z_internal/city/gate
 
 # maze
 function maze_runner:z_internal/maze/build
