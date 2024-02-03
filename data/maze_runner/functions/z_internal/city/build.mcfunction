@@ -1,5 +1,8 @@
-summon block_display ~ ~ ~ {Tags:["mr_center"]}
+summon marker ~ ~ ~ {Tags:["mr_center"]}
 scoreboard objectives add mr_var dummy
+scoreboard objectives add mr_sync dummy
+scoreboard objectives add mr_x dummy
+scoreboard objectives add mr_y dummy
 
 # Build walls
 fill ~51 ~ ~51 ~51 ~50 ~-52 bedrock

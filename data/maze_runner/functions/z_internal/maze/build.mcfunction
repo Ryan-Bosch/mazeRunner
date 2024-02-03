@@ -23,13 +23,14 @@ execute if score mr_random mr_var matches 2 positioned ~5 ~52 ~ facing ~1 ~ ~ ru
 execute if score mr_random mr_var matches 3 positioned ~ ~52 ~5 facing ~ ~ ~1 run function z_internal_maze_generator:start_from_code_w_direction
 
 
-summon block_display ~490 ~ ~490 {Tags:["mr_builder","mr_temp"]}
+# Setup building stage
+forceload add ~505 ~505 ~485 ~485
+forceload add ~49 ~49 ~-50 ~-50
+summon marker ~49.5 ~51 ~49.5 {Tags:["mr_reader", "mr_temp"]}
+summon marker ~495.5 ~ ~495.5 {Tags:["mr_builder", "mr_temp"]}
 
 
 # Build city grid
-scoreboard players reset mr_grid_x mr_var
-scoreboard players reset mr_grid_y mr_var
-#execute positioned ~49 ~51 ~49 run function maze_runner:z_internal/maze/grid
-
-
-#fill ~49 ~51 ~49 ~-50 ~51 ~-50 air
+scoreboard players set mr_grid_x mr_var 0
+scoreboard players set mr_grid_y mr_var 0
+return run schedule function maze_runner:z_internal/maze/loop 1t

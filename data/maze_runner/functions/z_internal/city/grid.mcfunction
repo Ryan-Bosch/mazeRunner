@@ -9,6 +9,6 @@ execute if score mr_random mr_var matches ..2 run function maze_runner:z_interna
 execute if score mr_random mr_var matches 3 run function maze_runner:z_internal/city/house
 
 scoreboard players add mr_grid_x mr_var 1
-execute if score mr_grid_x mr_var matches 10.. run function maze_runner:z_internal/city/tenth_row
+execute if score mr_grid_x mr_var matches 10.. run return run function maze_runner:z_internal/city/tenth_row
 
-execute unless score mr_grid_y mr_var matches 10.. positioned ~ ~ ~-10 run function maze_runner:z_internal/city/grid
+execute positioned ~ ~ ~-10 run function maze_runner:z_internal/city/grid
