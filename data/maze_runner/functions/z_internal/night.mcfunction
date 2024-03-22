@@ -5,4 +5,6 @@ fill ~ ~2 ~51 ~-1 ~50 ~51 bedrock replace air
 fill ~-52 ~2 ~ ~-52 ~50 ~-1 bedrock replace air
 fill ~ ~2 ~-52 ~-1 ~50 ~-52 bedrock replace air
 
+function maze_runner:z_internal/maze/traps/grievers
+
 return run function maze_runner:z_internal/maze/build

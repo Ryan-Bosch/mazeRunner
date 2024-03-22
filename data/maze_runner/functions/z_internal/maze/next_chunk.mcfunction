@@ -1,0 +1,1 @@
+execute as @e[tag=mr_center] at @s run return run function maze_runner:z_internal/maze/check_if_loaded
