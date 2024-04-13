@@ -1,3 +1,4 @@
+# Setup for mazes
 scoreboard objectives add mr_var dummy
 scoreboard objectives add mr_sync dummy
 scoreboard objectives add mr_x dummy
@@ -5,8 +6,14 @@ scoreboard objectives add mr_y dummy
 
 scoreboard players add mr_num_mazes mr_var 1
 
+# Mark center area
 summon marker ~ ~ ~ {Tags:["mr_center"]}
 execute as @e[tag=mr_center] unless score @s mr_sync matches 1.. run scoreboard players operation @s mr_sync = mr_num_mazes mr_var
+
+
+# Mark running player as primary
+tag @s add mr_primary
+scoreboard players operation @s mr_sync = mr_num_mazes mr_var
 
 # Empty Area
 fill ~51 ~ ~51 ~-52 ~50 ~-52 air
