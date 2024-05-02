@@ -54,5 +54,6 @@ execute as @e[tag=mr_reader] if score @s mr_sync = @e[limit=1, sort=nearest] mr_
 # Build city grid
 scoreboard players set @s mr_x 0
 scoreboard players set @s mr_y 0
+scoreboard players set @s mr_half 0
 tellraw @a[tag=!mr_mute] [{"text":"STOP! "},{"score":{"name":"@s","objective":"mr_sync"}},{"text":" is building a maze"}]
 return run schedule function maze_runner:z_internal/maze/next_chunk 1t

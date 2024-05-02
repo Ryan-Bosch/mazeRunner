@@ -1,3 +1,8 @@
+# Do not allow this to run if no generated maze is present
+execute at @e[tag=mr_reader, tag=mr_active] if block ~ ~ ~ air at @s run return run function function maze_runner:z_internal/maze/end_build
+execute if score @s mr_x matches ..1 if score @s mr_y matches ..1 if score mr_half matches 0 at @e[tag=mr_reader, tag=mr_active] if blocks ~-1 ~ ~-1 ~1 ~ ~1 ~-1 ~-1 ~-1 at @s run return run function maze_runner:z_internal/maze/end_build
+
+
 # Remove existing walls
 execute at @e[tag=mr_reader, tag=mr_active] unless block ~ ~ ~ orange_wool unless block ~ ~ ~ red_wool unless block ~ ~ ~ gray_wool at @e[tag=mr_builder, tag=mr_active] run fill ~7 ~ ~-2 ~-2 ~50 ~7 air
 
@@ -53,7 +58,7 @@ execute if score @s mr_y matches 42..58 unless score @s mr_x matches 44..60 at @
 
 # Setup for next chunk
 scoreboard players add @s mr_x 2
-execute if score @s mr_x matches 100.. run return run function maze_runner:z_internal/maze/hundredth_row
+execute if score @s mr_x matches 50.. run return run function maze_runner:z_internal/maze/hundredth_row
 execute as @e[tag=mr_reader] if score @s mr_sync = @e[limit=1, sort=nearest] mr_sync at @s run tp ~ ~ ~-1
 #execute as @e[tag=mr_builder] if score @s mr_sync = @e[limit=1, sort=nearest] mr_sync at @s run forceload add ~12 ~2 ~-2 ~-12
 execute as @e[tag=mr_builder] if score @s mr_sync = @e[limit=1, sort=nearest] mr_sync at @s run tp ~ ~ ~-10

@@ -14,7 +14,12 @@ execute unless score mr_success mr_var matches 1.. store result score mr_success
 execute unless score mr_success mr_var matches 1.. run tag @p[tag=mr_active] add mr_loader
 tellraw @a[tag=mr_loader,tag=!mr_mute] [{"text":"You are being teleported to maze "},{"score":{"name":"","objective":""}},{"text":" in order to assist in execution"}]
 gamemode spectator @a[tag=mr_loader]
-tp @a[tag=mr_loader] ~ ~20 ~
+
+execute if score @s mr_half matches ..0 if score @s mr_y matches ..50 run tp @a[tag=mr_loader] ~100 ~120 ~100
+execute if score @s mr_half matches ..0 if score @s mr_y matches 50.. run tp @a[tag=mr_loader] ~-100 ~120 ~100
+execute if score @s mr_half matches 1.. if score @s mr_y matches ..50 run tp @a[tag=mr_loader] ~100 ~120 ~-100
+execute if score @s mr_half matches 1.. if score @s mr_y matches 50.. run tp @a[tag=mr_loader] ~-100 ~120 ~-100
+
 tag @a remove mr_loader
 
 

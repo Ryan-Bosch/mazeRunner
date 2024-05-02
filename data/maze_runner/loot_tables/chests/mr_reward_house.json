@@ -1,0 +1,2054 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 15,
+        "max": 20
+      },
+      "bonus_rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:steak",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 50,
+          "name": "minecraft:clay_ball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:turtle_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:diamond_horse_armor",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:oxeye_daisy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:gray_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:poppy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:torchflower",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:dandelion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:lime_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:green_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cyan_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:blue_orchid",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:corn_flower",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:purple_dye",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:allium",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:pink_petals",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:glow_ink_sac",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:tide_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:wild_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:coast_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:dune_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:wayfinder_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:burn_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:howl_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:miner_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:mourner_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:snort_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:skull_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:shelter_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:prize_pottery_sherd",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:respiration\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:thorns\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:depth_strider\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:swift_sneak\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:smite\",lvl:5s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:knockback\",lvl:2s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:fire_aspect\",lvl:2s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:5s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:punch\",lvl:2s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:flame\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:channeling\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:piercing\",lvl:4s}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_cat",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_chirp",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_far",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_mall",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_mellohi",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_stal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_strad",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_ward",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_wait",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_otherside",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_relic",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_5",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:music_disc_pigstep",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:oak_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:spruce_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:birch_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:jungle_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:acacia_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:dark_oak_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:mangrove_propagule",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cherry_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:poison\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cherry_sapling",
+          "functions": [
+            {
+              "function": "spectral_arrow",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cherry_sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Fireworks:{Flight:3b,Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;16711680],FadeColors:[I;255]}]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_night_vision\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_speed\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:long_regeneration\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:luck\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{instrument:\"minecraft:seek_goat_horn\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{instrument:\"minecraft:call_goat_horn\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:saddle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:rail",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:powered_rail",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:budding_amethyst",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:bamboo",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:sugar_cane",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cactus",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:chorus_flower",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:wheat_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:cocoa_beans",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:pumpkin_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:melon_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:beetroot_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:sweet_berries",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:nether_wart",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 25,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_axe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_hoe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:golden_horse_armor",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 75,
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
