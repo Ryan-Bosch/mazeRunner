@@ -3,6 +3,7 @@ scoreboard objectives add mr_var dummy
 scoreboard objectives add mr_sync dummy
 scoreboard objectives add mr_x dummy
 scoreboard objectives add mr_y dummy
+scoreboard objectives add mr_half dummy
 
 scoreboard players add mr_num_mazes mr_var 1
 
