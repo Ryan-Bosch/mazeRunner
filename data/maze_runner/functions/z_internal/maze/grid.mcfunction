@@ -1,6 +1,6 @@
 # Do not allow this to run if no generated maze is present
-execute at @e[tag=mr_reader, tag=mr_active] if block ~ ~ ~ air at @s run return run function function maze_runner:z_internal/maze/end_build
-execute if score @s mr_x matches ..1 if score @s mr_y matches ..1 if score mr_half matches 0 at @e[tag=mr_reader, tag=mr_active] if blocks ~-1 ~ ~-1 ~1 ~ ~1 ~-1 ~-1 ~-1 at @s run return run function maze_runner:z_internal/maze/end_build
+execute at @e[tag=mr_reader, tag=mr_active] if block ~ ~ ~ air at @s run return run function maze_runner:z_internal/maze/end_build
+execute if score @s mr_x matches ..1 if score @s mr_y matches ..1 if score @s mr_half matches 0 at @e[tag=mr_reader, tag=mr_active] if blocks ~-1 ~ ~-1 ~1 ~ ~1 ~-1 ~-1 ~-1 all at @s run return run function maze_runner:z_internal/maze/end_build
 
 
 # Remove existing walls
